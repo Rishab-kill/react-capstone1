@@ -57,6 +57,7 @@ export default function RegisterForm(){
         }
 
         if(!isErrors){
+            localStorage.setItem("userInfo",JSON.stringify(formValues));
             navigate("/movies")
         }
     }

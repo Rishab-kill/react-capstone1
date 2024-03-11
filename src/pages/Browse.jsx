@@ -1,3 +1,3 @@
 export default function Browse(){
-    return <>Browse Page</>;
+    return (<>Browse Page</>);
 }
